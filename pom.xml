@@ -106,6 +106,7 @@
 			<artifactId>problem-spring-web-starter</artifactId>
 			<version>${problem-spring-web.version}</version>
 		</dependency>
+
 	</dependencies>
 
 	<build>
@@ -136,6 +137,8 @@
 				</configuration>
 			</plugin>
 		</plugins>
+		<finalName>springboot-nextjs-backend</finalName>
+
 	</build>
 
 </project>
